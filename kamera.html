@@ -96,11 +96,11 @@ input[type="password"]{
   100%{color:#ffb6c1;}
 }
 
-/* camera frame */
+/* camera frame - kvadrat */
 .frame{
   margin-top:18px;
   padding:10px;
-  border-radius:50%;
+  border-radius:12px; /* yumşaq künclü kvadrat */
   background:conic-gradient(#ff4d6d,#ffd166,#4cc9f0,#9d4edd,#ff4d6d);
   box-shadow:0 0 40px #ff4d6d;
   display:none;
@@ -110,7 +110,7 @@ input[type="password"]{
 }
 .inner{
   background:#000;
-  border-radius:50%;
+  border-radius:10px; /* yumşaq künclü kvadrat */
   padding:6px;
   position:relative;
   overflow:hidden;
@@ -119,7 +119,7 @@ input[type="password"]{
 video{
   width:240px;
   height:240px;
-  border-radius:50%;
+  border-radius:0; /* kvadrat oldu */
   object-fit:cover;
   display:block;
   box-shadow:0 0 25px rgba(0,0,0,.8);
@@ -242,4 +242,3 @@ function openCam(){
 
 </body>
 </html>
-
